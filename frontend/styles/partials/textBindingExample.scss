@@ -1,0 +1,16 @@
+.textBindingExample{
+    h1{
+        margin-bottom: 20px;
+    }
+
+    .form-group{
+        margin-bottom: 10px;
+        textarea{
+            background:rgba(0,0,0,.15) !important
+        }
+    }
+
+    .text-output{
+        word-wrap: break-word;
+    }
+}

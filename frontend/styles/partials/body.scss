@@ -1,0 +1,63 @@
+body{
+	//background-color: #292B2C;
+	background: linear-gradient(230deg, #563D7C, #292B2C);
+	word-wrap: break-word;
+	height: 100%;
+}
+
+a{
+	color: lightgrey;
+
+	&:hover{
+		color:white
+	}
+}
+
+.app-container{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.app-content{
+	flex: 1;
+}
+
+.bg-clear{
+	background:rgba(0,0,0,0);
+}
+
+#redootNav{
+	border-bottom: white 1px solid;
+}
+
+.underNav{
+	padding-top: 66px;
+}
+
+.mainLogo{
+	max-height: 35vh;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#brandImg{
+	margin-right: 6px;
+}
+
+.gitBtn{
+	margin-top: 10px;
+	background: rgba(0,0,0,.35) !important;
+	border-width: 0px;
+	padding:13px 16px;
+	i{
+		margin-right: 2px;
+	}
+	&:hover{
+		background: rgba(255,255,255,.25) !important;
+	}
+}
+
+.banner{
+	padding-bottom: 20px;
+}

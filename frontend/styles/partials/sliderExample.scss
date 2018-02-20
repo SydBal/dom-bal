@@ -1,0 +1,29 @@
+input[type=range]{
+	width:100%
+}
+
+.slider {
+    -webkit-appearance: none;
+	width: 100%;
+	border-radius:8px;
+	background:white;
+	opacity: .7;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+	border-radius:8px;
+	background:grey;
+}
+
+.slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+	border-radius:8px;
+	background:grey;
+}
