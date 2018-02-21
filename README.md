@@ -1,6 +1,5 @@
-# Redoot
-# A Redux-Bootstrap4 Starter Kit built on NodeJS
-## Author: Dominic Balassone
+# My Personal Website
+### Author: Dominic Balassone
 
 Uses:
 Nodejs
