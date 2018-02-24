@@ -13,7 +13,7 @@ class IntroBanner extends React.Component {
                                 d="M-100,0 a1,1 0 1,1 200,0" />
 
                             <pattern id="image" patternUnits="userSpaceOnUse" width="250" height="250">
-                                <image xlinkHref="https://image.ibb.co/dXtddH/avatar.png" x="25" y="25" width="200" height="200" />
+                                <image xlinkHref="img/avatar.png" x="25" y="25" width="200" height="200" />
                         </pattern>
 
                             <pattern id="gitimage" patternUnits="userSpaceOnUse" x="-25" y="-25" width="50" height="50">
@@ -122,6 +122,13 @@ class IntroBanner extends React.Component {
                             </text>
                         </g>
                     </svg>
+                    <p>
+                        dominic.balassone [at] gmail [dot] com
+                    </p>
+                    <p>
+                        (510) 461 - 8141
+                    </p>
+
                 </div>
             </div >
 		);

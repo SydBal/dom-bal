@@ -12,7 +12,7 @@ class TopNav extends React.Component {
 					</button>
 					<a className="navbar-brand" href="#">
 						<img src="/img/redootLogoWhite.png" height="28" width="28" className="d-inline-block align-top" alt="" id="brandImg"/>
-						Redoot
+						Dominic Balassone
 					</a>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav mr-auto">

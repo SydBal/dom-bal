@@ -6,17 +6,13 @@ class FooterBanner extends React.Component {
 	render() {
 		return (
             <div className="banner container-fluid footer" id="stickyFooter">
-                <div className="container text-center">
+                <div className="container text-center text-white">
                     <p>
-                        Redoot is released under the MIT license.
+                        This site is under construction.
                     </p>
                     <p>
-                        Please feel free to use this as a tool to start your own React-Redux + Bootstrap website.
+                        Thank you for visiting!
                     </p>
-                    <p>
-                        Good luck with your projects, and leave feedback on <a href="http://github.com/SydBal/redoot">GitHub!</a>
-                    </p>
-                    Sincerely - Dominic Balassone
                 </div>
             </div>
 		);
