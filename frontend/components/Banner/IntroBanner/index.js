@@ -7,7 +7,7 @@ class IntroBanner extends React.Component {
         return (
             <div className="banner container-fluid bg-clear underNav">
                 <div className="container text-center">
-                    <svg width="500" height="500" viewBox="0 0 250 255">
+                    <svg id="personalSVG" width="100%" height="100%" viewBox="0 0 250 255">
                         <defs>
                             <path id="namePath"
                                 d="M-100,0 a1,1 0 1,1 200,0" />
