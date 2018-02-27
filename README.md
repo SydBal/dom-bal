@@ -1,7 +1,7 @@
 # My Personal Website
 ### Author: Dominic Balassone
 
-##Uses:
+## Uses:
 Nodejs  
 React  
 Redux  
