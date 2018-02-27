@@ -36,8 +36,8 @@ class IntroBanner extends React.Component {
                             <a href="https://codepen.io/Greetings" target="_blank">
                                 <g transform="rotate(-120)">
                                     <circle fill="black" cx="0" cy="-100" r="25" />
-                                    <circle fill="white" cx="0" cy="-100" r="22" />
-                                    <circle class="link" cx="0" cy="-100" r="22" fill="url(#codeimage)" transform="rotate(120 0 -100)">
+                                    <circle fill="black" cx="0" cy="-100" r="22" />
+                                    <circle cx="0" cy="-100" r="22" fill="url(#codeimage)" transform="rotate(120 0 -100)">
                                         <animateTransform
                                             attributeName="transform"
                                             type="rotate"
@@ -61,7 +61,7 @@ class IntroBanner extends React.Component {
                                 <g transform="rotate(-180)">
                                     <circle fill="black" cx="0" cy="-100" r="25" />
                                     <circle fill="white" cx="0" cy="-100" r="22" />
-                                    <circle class="link" cx="0" cy="-100" r="22" fill="url(#linkimage)" transform="rotate(180 0 -100)">
+                                    <circle cx="0" cy="-100" r="22" fill="url(#linkimage)" transform="rotate(180 0 -100)">
                                         <animateTransform
                                             attributeName="transform"
                                             type="rotate"
@@ -85,7 +85,7 @@ class IntroBanner extends React.Component {
                                 <g transform="rotate(-240)">
                                     <circle fill="black" cx="0" cy="-100" r="25" />
                                     <circle fill="white" cx="0" cy="-100" r="22" />
-                                    <circle class="link" cx="0" cy="-100" r="22" fill="url(#gitimage)" transform="rotate(240 0 -100)">
+                                    <circle cx="0" cy="-100" r="22" fill="url(#gitimage)" transform="rotate(240 0 -100)">
                                         <animateTransform
                                             attributeName="transform"
                                             type="rotate"
@@ -106,8 +106,8 @@ class IntroBanner extends React.Component {
                                 </g>
                             </a>
 
-                            <text transform="translate(0,-1)" font-size="22">
-                                <textPath xlinkHref="#namePath" text-anchor="middle" startOffset="50%">
+                            <text transform="translate(0,-1)" fontSize="22">
+                                <textPath xlinkHref="#namePath" textAnchor="middle" startOffset="50%">
                                 Dominic Balassone
                                 </textPath>
                             <set
@@ -123,10 +123,10 @@ class IntroBanner extends React.Component {
                         </g>
                     </svg>
                     <p>
-                        dominic.balassone [at] gmail [dot] com
+                        <i class="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com
                     </p>
                     <p>
-                        (510) 461 - 8141
+                        <i class="material-icons">phone</i> (510) 461 - 8141
                     </p>
 
                 </div>

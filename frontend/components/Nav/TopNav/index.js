@@ -11,7 +11,6 @@ class TopNav extends React.Component {
 						<span className="navbar-toggler-icon"></span>
 					</button>
 					<a className="navbar-brand" href="#">
-						<img src="/img/redootLogoWhite.png" height="28" width="28" className="d-inline-block align-top" alt="" id="brandImg"/>
 						Dominic Balassone
 					</a>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
