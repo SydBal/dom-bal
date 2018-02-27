@@ -1,15 +1,64 @@
 #personalSVG{
+    height:100%;
+    width:100%;
     max-width: 500px;
 }
 
-i{
-    vertical-align: bottom;
+.material-icons{
+    display: inline-flex;
+    vertical-align: middle;
+    h4{
+        vertical-align: bottom;
+    }
 }
 
 #introBanner{
     min-height: 100vh;
+    padding: 10px 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+#svgIntro{
+    height:100%;
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    background:rgba(#fff,.85);
+    border-radius: 100%;
+    border: 5px solid black
+}
+
+#introPatternBG{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color:#333;
+	background-image: linear-gradient(30deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222),
+	linear-gradient(150deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222),
+	linear-gradient(30deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222),
+	linear-gradient(150deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222),
+	linear-gradient(60deg, #000 25%, transparent 25.5%, transparent 75%, #000 75%, #000), 
+	linear-gradient(60deg, #000 25%, transparent 25.5%, transparent 75%, #000 75%, #000);
+	background-size:80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+button{
+    margin-top: 10px;
+    background: rgba($color: #fff, $alpha: .85) !important;
+    h4{
+        margin-bottom: 0;
+    }
+    transition: 1s all;
+
+    &:hover{
+        background: rgba($color: #fff, $alpha: 1) !important;
+    }
+
+    &:active{
+        background: rgba($color: #fff, $alpha: 1) !important;
+    }
 }
