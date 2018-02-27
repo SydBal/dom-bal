@@ -6,7 +6,7 @@ class IntroBanner extends React.Component {
     render() {
         return (
             <div className="banner container-fluid bg-clear underNav">
-                <div className="container text-center">
+                <div id="introBanner" className="container text-center">
                     <svg id="personalSVG" width="100%" height="100%" viewBox="0 0 250 255">
                         <defs>
                             <path id="namePath"
@@ -123,9 +123,7 @@ class IntroBanner extends React.Component {
                         </g>
                     </svg>
                     <p>
-                        <i class="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com
-                    </p>
-                    <p>
+                        <i class="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com<br/>
                         <i class="material-icons">phone</i> (510) 461 - 8141
                     </p>
 
