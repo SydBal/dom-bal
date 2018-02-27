@@ -2,9 +2,17 @@
 ### Author: Dominic Balassone
 
 Uses:
+
 Nodejs
-Webpack
+
 React
+
 Redux
+
 Bootstrap
+
+Webpack
+
 PostCSS
+
+Material Icons
