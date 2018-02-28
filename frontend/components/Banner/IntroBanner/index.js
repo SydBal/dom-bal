@@ -34,7 +34,7 @@ class IntroBanner extends React.Component {
 
                             </defs>
                             <circle cx="125" cy="125" r="100" fill="black" />
-                            <circle cx="125" cy="125" r="97" fill="url(#image)" />
+                            <circle id="bigHead" cx="125" cy="125" r="97" fill="url(#image)" />
                             <g transform="translate(125,125)">
                                 <a href="https://codepen.io/Greetings" target="_blank">
                                     <g transform="rotate(-120)">
