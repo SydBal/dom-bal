@@ -20,15 +20,15 @@ class IntroBanner extends React.Component {
                             </pattern>
 
                                 <pattern id="gitimage" patternUnits="userSpaceOnUse" x="-25" y="-25" width="50" height="50">
-                                    <image xlinkHref="https://upload.wikimedia.org/wikipedia/commons/e/eb/Ei-sc-github.svg" width="50" height="50" />
+                                    <image xlinkHref="img/github.svg" width="50" height="50" />
                             </pattern>
 
                                 <pattern id="linkimage" patternUnits="userSpaceOnUse" x="-25" y="-25" width="50" height="50">
-                                    <image xlinkHref="https://upload.wikimedia.org/wikipedia/commons/c/ce/Linkedin_circle.svg" width="50" height="50" />
+                                    <image xlinkHref="img/linkedin.svg" width="50" height="50" />
                             </pattern>
 
                                 <pattern id="codeimage" patternUnits="userSpaceOnUse" x="-19" y="-19" width="50" height="50">
-                                    <image xlinkHref="https://cdn.worldvectorlogo.com/logos/codepen-icon.svg" width="38" height="38" />
+                                    <image xlinkHref="img/codepen.svg" width="38" height="38" />
                             </pattern>
 
 
@@ -126,15 +126,17 @@ class IntroBanner extends React.Component {
                             </g>
                         </svg>
                     </div>
-                    <p id="introInfo">
-                        <h4><i class="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com</h4>
-                        <h4><i class="material-icons">phone</i> (510) 461 - 8141</h4>
-                        <a href="/docs/DominicBalassoneResume.pdf" target="_blank">
-                            <button type="button" class="btn btn-secondary">
-                                <h4><i class="material-icons">file_download</i> Résumé</h4>
-                            </button>
-                        </a>
-                    </p>
+                    <a href="/docs/DominicBalassoneResume.pdf" target="_blank">
+                        <button id="resumeButton" type="button" class="btn btn-secondary">
+                            <h4><i class="material-icons">file_download</i> Résumé</h4>
+                        </button>
+                    </a>
+                    <div id="introInfo">
+                        <div>
+                            <h4><i class="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com</h4>
+                            <h4><i class="material-icons">phone</i> (510) 461 - 8141</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
