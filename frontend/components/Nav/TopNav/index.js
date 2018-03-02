@@ -6,10 +6,10 @@ class TopNav extends React.Component {
 	componentDidMount () {
 		if( window.scrollY > 65){
 			document.getElementById('topNav').style.opacity = 1
+			document.getElementById('topNav').style.transform = "rotate(90)"
 		}
 
 		window.addEventListener('scroll', function(e) {
-
 			if( window.scrollY > 65){
 				document.getElementById('topNav').style.opacity = 1
 			}else{

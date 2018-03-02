@@ -10,8 +10,13 @@ class FooterBanner extends React.Component {
                     <p>
                         This site is under construction.
                     </p>
+                    <kbd>
+                        const code = (&#x2764;, &#x1F552;, &#x2615;) => ({'{quality: '}&#x2764;, speed: Math.pow(&#x1F552;, &#x2615;){'}'})
+                    </kbd>
                     <p>
-                        Thank you for visiting!
+                        <br/>Send &#x2615; to<br/>
+                        BTC: 1FirT3AVP3qcNxaemdpdPSAxSqcEUsn3Un<br/>
+                        ETH: 0x39e6745e5b4ac07189f92647206f63c152b66c30
                     </p>
                 </div>
             </div>
