@@ -4,6 +4,29 @@ import { connect } from 'react-redux';
 
 class IntroBanner extends React.Component {
 
+    componentDidMount () {
+        const title = document.getElementById('myTitle')
+        const titleWords = ['Software Developer', 'Game Maker', 'SVG Animator', 'Machine Learning and AI Enthusiast']
+        let counter = 0
+
+        const changeWord = (word) => {
+            title.style.opacity = 0
+            if(counter == 3){
+                counter = 0
+            }else{
+                counter++
+            }
+            setTimeout(()=>{
+                title.innerHTML = titleWords[counter]
+                title.style.opacity = 1
+            },1000)
+        }
+
+        setInterval(()=>{
+            changeWord()
+        },4000)
+	}
+
     render() {
         return (
             <div>
@@ -13,17 +36,19 @@ class IntroBanner extends React.Component {
                         <div id="svgIntro">
                             <IntroSVG />
                         </div>
+                        <div id="introInfo">
+                            <div>
+                                <h3 id="myTitle">Software Developer</h3>
+                                <hr/>
+                                <h4><i className="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com</h4>
+                                <h4><i className="material-icons">phone</i> (510) 461 - 8141</h4>
+                            </div>
+                        </div>
                         <a href="/docs/DominicBalassoneResume.pdf" target="_blank">
                             <button id="resumeButton" type="button" className="btn btn-secondary">
                                 <h4><i className="material-icons">file_download</i> Résumé</h4>
                             </button>
                         </a>
-                        <div id="introInfo">
-                            <div>
-                                <h4><i className="material-icons">mail_outline</i> dominic.balassone [at] gmail [dot] com</h4>
-                                <h4><i className="material-icons">phone</i> (510) 461 - 8141</h4>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

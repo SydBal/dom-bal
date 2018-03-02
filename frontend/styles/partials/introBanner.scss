@@ -28,6 +28,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    hr{
+        border-color: white;
+    }
+    h3{
+        padding-top:10px;
+        transition: 1s opacity;
+    }
 }
 
 #svgIntro{
