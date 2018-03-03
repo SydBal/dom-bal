@@ -44,11 +44,6 @@ class IntroBanner extends React.Component {
                                 <h4><i className="material-icons">phone</i> (510) 461 - 8141</h4>
                             </div>
                         </div>
-                        <a href="/docs/DominicBalassoneResume.pdf" target="_blank">
-                            <button id="resumeButton" type="button" className="btn btn-secondary">
-                                <h4><i className="material-icons">file_download</i> Résumé</h4>
-                            </button>
-                        </a>
                     </div>
                 </div>
             </div>

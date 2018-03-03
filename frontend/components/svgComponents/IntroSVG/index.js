@@ -42,6 +42,9 @@ class IntroSVG extends React.Component {
                         <image xlinkHref="img/codepen.svg" width="38" height="38" />
                     </pattern>
 
+                    <pattern id="resumeimage" patternUnits="userSpaceOnUse" x="-19" y="-19" width="50" height="50">
+                        <image xlinkHref="img/resume.png" width="38" height="38" />
+                    </pattern>
 
                 </defs>
                 <circle cx="125" cy="125" r="100" fill="black" />
@@ -51,12 +54,12 @@ class IntroSVG extends React.Component {
                         <g transform="rotate(-120)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="black" cx="0" cy="-100" r="22" />
-                            <circle cx="0" cy="-100" r="22" fill="url(#codeimage)" transform="rotate(120 0 -100)">
+                            <circle cx="0" cy="-100" r="22" fill="url(#codeimage)" transform="rotate(90 0 -100)">
                                 <animateTransform
                                     attributeName="transform"
                                     type="rotate"
-                                    values="0 0 -100;60 0 -100;120 0 -100;120 0 -100;120 0 -100"
-                                    keyTimes="0;0.25;0.5;0.75;1"
+                                    values="0 0 -100;45 0 -100;90 0 -100;90 0 -100;90 0 -100;90 0 -100;90 0 -100"
+                                    keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                     dur="2s"
                                     fill="freeze"
                                     begin="0s;startAnimation.begin" />
@@ -64,8 +67,32 @@ class IntroSVG extends React.Component {
                             <animateTransform
                                 attributeName="transform"
                                 type="rotate"
-                                values="0;-60;-120;-120;-120"
-                                keyTimes="0;0.25;0.5;0.75;1"
+                                values="0;-45;-90;-90;-90;-90;-90"
+                                keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
+                                dur="2s"
+                                fill="freeze"
+                                begin="0s;startAnimation.begin" />
+                        </g>
+                    </a>
+                    <a href="https://github.com/SydBal" target="_blank" className="personalLink" data-name="GitHub">
+                        <g transform="rotate(-150)">
+                            <circle fill="black" cx="0" cy="-100" r="25" />
+                            <circle fill="white" cx="0" cy="-100" r="22" />
+                            <circle cx="0" cy="-100" r="22" fill="url(#gitimage)" transform="rotate(135 0 -100)">
+                                <animateTransform
+                                    attributeName="transform"
+                                    type="rotate"
+                                    values="0 0 -100;45 0 -100;90 0 -100;135 0 -100;135 0 -100;135 0 -100;135 0 -100"
+                                    keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
+                                    dur="2s"
+                                    fill="freeze"
+                                    begin="0s;startAnimation.begin" />
+                            </circle>
+                            <animateTransform
+                                attributeName="transform"
+                                type="rotate"
+                                values="0;-45;-90;-135;-135;-135;-135"
+                                keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                 dur="2s"
                                 fill="freeze"
                                 begin="0s;startAnimation.begin" />
@@ -75,12 +102,12 @@ class IntroSVG extends React.Component {
                         <g transform="rotate(-180)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
-                            <circle cx="0" cy="-100" r="22" fill="url(#linkimage)" transform="rotate(180 0 -100)">
+                            <circle cx="0" cy="-100" r="22" fill="url(#linkimage)" transform="rotate(225 0 -100)">
                                 <animateTransform
                                     attributeName="transform"
                                     type="rotate"
-                                    values="0 0 -100;60 0 -100;120 0 -100;180 0 -100;180 0 -100"
-                                    keyTimes="0;0.25;0.5;0.75;1"
+                                    values="0 0 -100;45 0 -100;90 0 -100;135 0 -100;180 0 -100;225 0 -100;225 0 -100"
+                                    keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                     dur="2s"
                                     fill="freeze"
                                     begin="0s;startAnimation.begin" />
@@ -88,23 +115,23 @@ class IntroSVG extends React.Component {
                             <animateTransform
                                 attributeName="transform"
                                 type="rotate"
-                                values="0;-60;-120;-180;-180"
-                                keyTimes="0;0.25;0.5;0.75;1"
+                                values="0;-45;-90;-135;-180;-225;-225"
+                                keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                 dur="2s"
                                 fill="freeze"
                                 begin="0s;startAnimation.begin" />
                         </g>
                     </a>
-                    <a href="https://github.com/SydBal" target="_blank" className="personalLink" data-name="GitHub">
+                    <a href="/docs/DominicBalassoneResume.pdf" target="_blank" className="personalLink" data-name="Résumé">
                         <g transform="rotate(-240)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
-                            <circle cx="0" cy="-100" r="22" fill="url(#gitimage)" transform="rotate(240 0 -100)">
+                            <circle cx="0" cy="-100" r="22" fill="url(#resumeimage)" transform="rotate(270 0 -100)">
                                 <animateTransform
                                     attributeName="transform"
                                     type="rotate"
-                                    values="0 0 -100;60 0 -100;120 0 -100;180 0 -100;240 0 -100"
-                                    keyTimes="0;0.25;0.5;0.75;1"
+                                    values="0 0 -100;45 0 -100;90 0 -100;135 0 -100;180 0 -100;225 0 -100;270 0 -100"
+                                    keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                     dur="2s"
                                     fill="freeze"
                                     begin="0s;startAnimation.begin" />
@@ -112,8 +139,8 @@ class IntroSVG extends React.Component {
                             <animateTransform
                                 attributeName="transform"
                                 type="rotate"
-                                values="0;-60;-120;-180;-240"
-                                keyTimes="0;0.25;0.5;0.75;1"
+                                values="0;-45;-90;-135;-180;-225;-270"
+                                keyTimes="0;0.167;0.33;0.5;0.667;0.83;1"
                                 dur="2s"
                                 fill="freeze"
                                 begin="0s;startAnimation.begin" />
