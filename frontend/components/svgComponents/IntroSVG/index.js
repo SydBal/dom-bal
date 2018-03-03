@@ -9,7 +9,7 @@ class IntroSVG extends React.Component {
         for(let link of linkIcons){
             link.addEventListener("mouseover", () => {
                 bigHead.style.opacity = .4
-                text.innerHTML = link.dataset.name
+                text.innerHTML = link.getAttribute('data-name')
                 text.style.opacity = 1
             });
             link.addEventListener("mouseout", () => {
