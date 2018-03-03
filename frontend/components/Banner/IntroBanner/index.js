@@ -17,8 +17,8 @@ class IntroBanner extends React.Component {
                 counter++
             }
             setTimeout(()=>{
-                title.innerHTML = titleWords[counter]
                 title.style.opacity = 1
+                title.innerHTML = titleWords[counter]
             },1000)
         }
 
