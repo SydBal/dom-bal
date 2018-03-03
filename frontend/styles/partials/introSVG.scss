@@ -5,7 +5,7 @@
 }
 
 #bigHead{
-    transition: transform opacity 1s;
+    transition: transform 1s, opacity 1s;
     transform-origin: 125px 125px;
     &:hover{
         transform: rotate(360deg);
