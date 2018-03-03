@@ -10,7 +10,7 @@ module.exports = {
 		}
 	},
 	devtool: `source-map`,
-	entry: path.join(__dirname, `frontend/components/index.js`),
+	entry: ["babel-polyfill", path.join(__dirname, `frontend/components/index.js`)],
 	output: {
 		path : path.resolve(__dirname, `frontend/build`),
 		publicPath: `/`,
