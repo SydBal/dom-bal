@@ -51,7 +51,7 @@ class IntroSVG extends React.Component {
                 <circle id="bigHead" cx="125" cy="125" r="97" fill="url(#image)"/>
                 <g transform="translate(125,125)">
                     <a href="https://codepen.io/Greetings" target="_blank" className="personalLink" data-name="CodePen">
-                        <g transform="rotate(-120)">
+                        <g transform="rotate(-90)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="black" cx="0" cy="-100" r="22" />
                             <circle cx="0" cy="-100" r="22" fill="url(#codeimage)" transform="rotate(90 0 -100)">
@@ -75,7 +75,7 @@ class IntroSVG extends React.Component {
                         </g>
                     </a>
                     <a href="https://github.com/SydBal" target="_blank" className="personalLink" data-name="GitHub">
-                        <g transform="rotate(-150)">
+                        <g transform="rotate(-135)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
                             <circle cx="0" cy="-100" r="22" fill="url(#gitimage)" transform="rotate(135 0 -100)">
@@ -99,7 +99,7 @@ class IntroSVG extends React.Component {
                         </g>
                     </a>
                     <a href="https://www.linkedin.com/in/dominic-balassone-1991aa38/" target="_blank" className="personalLink" data-name="LinkedIn">
-                        <g transform="rotate(-180)">
+                        <g transform="rotate(-225)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
                             <circle cx="0" cy="-100" r="22" fill="url(#linkimage)" transform="rotate(225 0 -100)">
@@ -123,7 +123,7 @@ class IntroSVG extends React.Component {
                         </g>
                     </a>
                     <a href="/docs/DominicBalassoneResume.pdf" target="_blank" className="personalLink" data-name="Résumé">
-                        <g transform="rotate(-240)">
+                        <g transform="rotate(-270)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
                             <circle cx="0" cy="-100" r="22" fill="url(#resumeimage)" transform="rotate(270 0 -100)">
