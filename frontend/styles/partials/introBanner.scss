@@ -1,18 +1,3 @@
-#personalSVG{
-    height:100%;
-    width:100%;
-    max-width: 500px;
-}
-
-#bigHead{
-    transition: transform 1s;
-    transform-origin: 125px 125px;
-    &:hover{
-        transform: rotate(360deg);
-        background:white;
-    }
-}
-
 .material-icons{
     display: inline-flex;
     vertical-align: middle;
@@ -35,16 +20,6 @@
         padding-top:10px;
         transition: 1s opacity;
     }
-}
-
-#svgIntro{
-    height:100%;
-    width: 100%;
-    max-width: 500px;
-    display: inline-block;
-    background:rgba(#fff,.85);
-    border-radius: 100%;
-    border: 5px solid black;
 }
 
 #introInfo{
