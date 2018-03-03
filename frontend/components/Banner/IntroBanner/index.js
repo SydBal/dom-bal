@@ -6,7 +6,7 @@ class IntroBanner extends React.Component {
 
     componentDidMount () {
         const title = document.getElementById('myTitle')
-        const titleWords = ['Software Developer', 'Game Maker', 'SVG Animator', 'Machine Learning and AI Enthusiast']
+        const titleWords = ['Software Developer', 'Game Maker', 'SVG + CSS Animator', 'JavaScript Tinker']
         let counter = 0
 
         const changeWord = (word) => {

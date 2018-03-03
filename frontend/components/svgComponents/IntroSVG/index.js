@@ -2,6 +2,22 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 class IntroSVG extends React.Component {
+    componentDidMount(){
+        let linkIcons = document.getElementsByClassName('personalLink')
+        let bigHead = document.getElementById('bigHead')
+        let text = document.getElementById('linkName')
+        for(let link of linkIcons){
+            link.addEventListener("mouseover", () => {
+                bigHead.style.opacity = .4
+                text.innerHTML = link.dataset.name
+                text.style.opacity = 1
+            });
+            link.addEventListener("mouseout", () => {
+                bigHead.style.opacity = 1
+                text.style.opacity = 0
+            });
+        }
+    }
 
     render() {
         return (
@@ -29,9 +45,9 @@ class IntroSVG extends React.Component {
 
                 </defs>
                 <circle cx="125" cy="125" r="100" fill="black" />
-                <circle id="bigHead" cx="125" cy="125" r="97" fill="url(#image)" />
+                <circle id="bigHead" cx="125" cy="125" r="97" fill="url(#image)"/>
                 <g transform="translate(125,125)">
-                    <a href="https://codepen.io/Greetings" target="_blank">
+                    <a href="https://codepen.io/Greetings" target="_blank" className="personalLink" data-name="CodePen">
                         <g transform="rotate(-120)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="black" cx="0" cy="-100" r="22" />
@@ -55,7 +71,7 @@ class IntroSVG extends React.Component {
                                 begin="0s;startAnimation.begin" />
                         </g>
                     </a>
-                    <a href="https://www.linkedin.com/in/dominic-balassone-1991aa38/" target="_blank">
+                    <a href="https://www.linkedin.com/in/dominic-balassone-1991aa38/" target="_blank" className="personalLink" data-name="LinkedIn">
                         <g transform="rotate(-180)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
@@ -79,7 +95,7 @@ class IntroSVG extends React.Component {
                                 begin="0s;startAnimation.begin" />
                         </g>
                     </a>
-                    <a href="https://github.com/SydBal" target="_blank">
+                    <a href="https://github.com/SydBal" target="_blank" className="personalLink" data-name="GitHub">
                         <g transform="rotate(-240)">
                             <circle fill="black" cx="0" cy="-100" r="25" />
                             <circle fill="white" cx="0" cy="-100" r="22" />
@@ -118,6 +134,7 @@ class IntroSVG extends React.Component {
                             begin="0.5;startAnimation.begin+0.5s"
                             fill="freeze" />
                     </text>
+                    <text id="linkName" textAnchor="middle" startOffset="50%" fill="white"/>
                 </g>
             </svg>
         );

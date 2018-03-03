@@ -1,0 +1,29 @@
+#personalSVG{
+    height:100%;
+    width:100%;
+    max-width: 500px;
+}
+
+#bigHead{
+    transition: transform opacity 1s;
+    transform-origin: 125px 125px;
+    &:hover{
+        transform: rotate(360deg);
+        background:white;
+    }
+}
+
+#svgIntro{
+    height:100%;
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    background:rgba(#fff,.85);
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+#linkName{
+    opacity: 0;
+    transition: opacity 1s;
+}
