@@ -24,7 +24,7 @@ class ProjectBanner extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4">
-                            <div className="projectCard" style={{backgroundImage:'url(img/psexample.png)'}}>
+                            <div className="projectCard" style={{backgroundPosition:'left',backgroundImage:'url(img/psexample.png)'}}>
                                 <div className="projectCardContent">
                                     <h3>Real-Time Diagnostics Heatmap</h3>
                                 </div>
@@ -38,16 +38,23 @@ class ProjectBanner extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4">
-                            <div className="projectCard"  style={{backgroundImage:'url(img/facespace.png)'}}>
+                            <div className="projectCard"  style={{backgroundPosition:'right',backgroundImage:'url(img/facespace.png)'}}>
                                 <div className="projectCardContent">
                                     <h3>Gender Classification Using Silhouette Data</h3>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4">
-                            <div className="projectCard" style={{backgroundImage:'url(img/tafl.png)'}}>
+                            <div className="projectCard" style={{backgroundPosition:'left',backgroundImage:'url(img/tafl.png)'}}>
                                 <div className="projectCardContent">
                                     <h3>The Touchdown Adventures of the Philae Lander</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="projectCard"  style={{backgroundPosition:'left',backgroundImage:'url(img/chatimg.png)'}}>
+                                <div className="projectCardContent">
+                                    <h3>Chat.io</h3>
                                 </div>
                             </div>
                         </div>
