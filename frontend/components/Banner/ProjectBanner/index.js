@@ -31,9 +31,16 @@ class ProjectBanner extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4">
-                            <div className="projectCard"  style={{backgroundImage:'url(img/tuvalucover.png)'}}>
+                            <div className="projectCard"  style={{backgroundImage:'url(img/seadslogo.png)'}}>
                                 <div className="projectCardContent">
-                                    <h3>Tuvalu Salt Company Book Cover</h3>
+                                    <h3>Smart Energy Analytics and Disaggregation Systems</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="projectCard"  style={{backgroundImage:'url(img/facespace.png)'}}>
+                                <div className="projectCardContent">
+                                    <h3>Gender Classification Using Silhouette Data</h3>
                                 </div>
                             </div>
                         </div>
@@ -41,6 +48,13 @@ class ProjectBanner extends React.Component {
                             <div className="projectCard" style={{backgroundImage:'url(img/tafl.png)'}}>
                                 <div className="projectCardContent">
                                     <h3>The Touchdown Adventures of the Philae Lander</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="projectCard"  style={{backgroundImage:'url(img/tuvalucover.png)'}}>
+                                <div className="projectCardContent">
+                                    <h3>Tuvalu Salt Company Book Cover</h3>
                                 </div>
                             </div>
                         </div>
